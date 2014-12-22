@@ -4,5 +4,5 @@ import com.interview.paxos.message.MessageType;
 
 public interface Message {
 
-	MessageType getMessageType();
+    MessageType getMessageType();
 }

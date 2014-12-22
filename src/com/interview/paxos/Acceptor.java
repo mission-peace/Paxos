@@ -6,10 +6,10 @@ import com.interview.paxos.message.PrepareResponse;
 
 public interface Acceptor extends Component{
 
-	public PrepareResponse prepare(PrepareRequest m);
+    public PrepareResponse prepare(PrepareRequest m);
 
-	public void accept(AcceptRequest m);
+    public void accept(AcceptRequest m);
 
-	public void sentLearntValue();
+    public void sentLearntValue();
 
 }

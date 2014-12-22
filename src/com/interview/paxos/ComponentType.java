@@ -1,7 +1,7 @@
 package com.interview.paxos;
 
 public enum ComponentType {
-	ACCEPTOR,
-	PROPOSER,
-	LEARNER;
+    ACCEPTOR,
+    PROPOSER,
+    LEARNER;
 }

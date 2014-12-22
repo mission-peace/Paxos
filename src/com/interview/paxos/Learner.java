@@ -4,5 +4,5 @@ import com.interview.paxos.message.LearnerMessage;
 
 public interface Learner extends Component{
 
-	public void learnProposedValue(LearnerMessage m);
+    public void learnProposedValue(LearnerMessage m);
 }
